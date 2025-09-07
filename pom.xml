@@ -57,8 +57,10 @@
         </dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>   <!-- latest stable, supports Java 11 → 21 -->
+            <scope>provided</scope>
+
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
